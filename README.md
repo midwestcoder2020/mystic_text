@@ -32,7 +32,7 @@
     - **Using C++ compiler:**
 
     ```bash
-    g++ -o TextQuest src/game.cpp
+    g++ -o TextQuest game.cpp
     ```
 
 3. Run the game:
