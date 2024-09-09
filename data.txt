@@ -1,0 +1,23 @@
+# required items
+# 1- title
+# 2- setting
+# 3- objective
+# 4- list of locations which make up the main game loop
+#
+#
+title:Test The Text based game Framework
+setting:You are in a testing room and need to escape to pass the test.
+objective:Explore the room to find a key, use the key and open the door to escape and win!.
+#
+# 
+# format for locations
+# <room/location name>|<locked status ie locked/unlocked>|<item required to open it>|
+# list of items and their descriptions delimited by '_' and the item+descriptions separated by '-' |
+#  <is it the end/final room ie yes/no> | <end game message>
+#
+#
+location:test room|unlocked|n/a|key1-a key, which may be useful?|no|n/a
+location:test hall|unlocked|n/a|flashlight-illuminates your surroundings!|no|n/a
+location:test door|locked|key1|key2-might be useful!|no|door unlocked!
+location:test end|locked|key1|none|no|the path is open now!
+location:test escape|locked|key1|none|yes|congrats your made it!
