@@ -29,19 +29,10 @@
 
 2. Build the project:
 
-    - **Using CMake:**
+    - **Using C++ compiler:**
 
     ```bash
-    mkdir build
-    cd build
-    cmake ..
-    make
-    ```
-
-    - **Or directly with a C++ compiler:**
-
-    ```bash
-    g++ -o TextQuest src/*.cpp
+    g++ -o TextQuest src/game.cpp
     ```
 
 3. Run the game:
