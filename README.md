@@ -56,7 +56,7 @@ To create your own adventure, modify the data.txt file. Use the provided templat
 
 ### Example
 
-```cpp
+```
 # required items
 # 1- title
 # 2- setting
